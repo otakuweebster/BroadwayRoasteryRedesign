@@ -1,0 +1,98 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+/*
+    Filename: teamstyle.css
+    Author: Gabriel Beltran (cst133)
+    Date: 5/22/2022
+    Purpose:
+
+*/
+body
+{
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.photo
+{
+    display: block;
+    width: 75%;
+    height: 75%;
+
+    margin: 0 auto;
+}
+
+#tag
+{
+    display: block;
+    width: 50%;
+    height: 50%;
+
+    margin: 0 auto;
+}
+
+#endtag
+{
+    display: block;
+    width: 50%;
+    height: 50%;
+
+    margin: 0 auto;
+}
+
+hr
+{
+    margin: 20px auto;
+    width: 75%;
+}
+
+div.row
+{
+    padding: 50px;
+}
+
+div.card
+{
+    padding: 20px;
+}
+
+@media only screen and (max-width: 574px)
+{
+    div.row
+    {
+        padding: 0;
+    }
+
+    .photo
+    {
+        display: block;
+        width: 120%;
+        height: 120%;
+
+        margin: 0 auto;
+    }
+
+    #tag
+    {
+        display: block;
+        width: 100%;
+        height: 100%;
+
+        margin: 0 auto;
+    }
+
+    div.card
+    {
+        padding: 10px;
+    }
+
+    #endtag
+    {
+        display: block;
+        width: 100%;
+        height: 100%;
+
+        margin: 0 auto;
+    }
+
+}

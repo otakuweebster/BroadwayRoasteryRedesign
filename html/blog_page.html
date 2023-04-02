@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+    Filename :    blog_page.html
+    Author:       Taylor Stigen CST144
+    Date:         5/24/2022
+    Purpose:      Gallery Page for Broadway Roastery
+    -->
+    <meta charset="UTF-8">
+    <title>Broadway Roastery - Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../resources/css/nav_header_design.css">
+    <script src="../js/jquery-3.6.0.min.js"></script>
+    <script src="../js/jquery.validate.min.js"></script>
+    <script src="../js/header_anim.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="icon" type="image/x-icon" href="../resources/img/main_favicon.ico">
+    <link rel="stylesheet" href="../resources/css/blog-gallery_style.css">
+    <link rel="stylesheet" href="../resources/css/blog.css">
+</head>
+<body>
+<!--Navigation Bar Structure for every page-->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark navbar-expand-sm mx-auto" role="navigation" >
+        <div class="container-fluid">
+            <a class="navbar-brand mx-auto" href="home_page.html">
+                <img class="logo d-md-none mx-0" src="../resources/img/logo_white.png" height="334" width="357"/>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <br>
+                <br>
+                <ul class="navbar-nav mx-auto" id="firstUl">
+                    <li class="nav-item">
+                        <a class="nav-link" href="home_page.html">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="menu_page.html">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="review_page.html">REVIEW</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">BLOG</a>
+                    </li>
+                </ul>
+
+                <a class="navbar-brand ms-auto d-none d-md-block" href="home_page.html">
+                    <img class="logo" src="../resources/img/logo_white.png" height="334" width="357"/>
+                </a>
+
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="gallery_page.html">GALLERY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ourcoffee_page.html">OUR COFFEE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="aboutus_page.html">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contactus_page.html">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<!--Actual body content-->
+    <div class="d-flex align-items-center text-center" id="banner">
+        <div id="textquote">
+            <h1>BLOG</h1>
+            <hr style="width: 75%" class="mx-auto">
+            <h2>Updates and Current Happenings at Broadway Roastery</h2>
+        </div>
+        <div class="row text-center bg">
+            <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+                <source src="../resources/video/coffee.mp4" type="video/mp4"/>
+            </video>
+        </div>
+    </div>
+
+    <div class="container-fluid body content">
+        <div>
+            <div>
+                <article class="blog-post">
+                    <h2 class="blog-post-title">Spring Update</h2>
+                    <p class="blog-post-meta">May 13, 2022 by <a href="#">Vince</a></p>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque consectetur nisl,
+                        eu maximus sem ultricies id. Ut pretium iaculis elementum. Cras at ex arcu. Nulla cursus ante
+                        in ligula gravida, at venenatis orci pulvinar. Aenean ultricies vehicula lorem. Etiam pharetra
+                        tellus eget risus vulputate, sed varius mi viverra. Cras elementum bibendum lacinia. Sed ligula
+                        leo, ultrices id varius ac, suscipit sed eros. Donec id mattis sapien, vitae tempus turpis.
+                    </p>
+
+                    <p>
+                        Etiam risus diam, faucibus nec est sit amet, euismod sodales magna. Duis non ornare odio. Vivamus
+                        sodales metus nec iaculis gravida. Praesent pharetra tempus nibh feugiat blandit. Nulla pulvinar
+                        ultrices purus auctor aliquet. Nulla pretium hendrerit lectus sed accumsan. Vestibulum ante ipsum
+                        primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris id massa ac odio
+                        vestibulum interdum ac sed ex. Integer aliquet nisl id sagittis semper. Proin sed dolor
+                        consectetur, tempor velit et, gravida orci.
+                    </p>
+
+                    <p>
+                        Donec vel dui at nisi posuere gravida. Suspendisse potenti. Nam eu dolor rutrum leo porttitor
+                        hendrerit. Mauris ut mi et ex accumsan bibendum. Phasellus vestibulum pellentesque molestie.
+                        Quisque sodales tincidunt nibh nec iaculis. Nulla vel justo non mauris molestie consequat. Sed
+                        accumsan hendrerit metus sed ultricies. Aenean sit amet metus vel nisl commodo cursus ut ac felis.
+                        Quisque vel tempor ipsum, et mattis ligula. Pellentesque a sodales velit. Suspendisse et arcu erat.
+                        In non pellentesque urna, at ornare odio. Proin consectetur ligula nec leo vulputate dignissim.
+                        Nunc finibus euismod volutpat. Nam tincidunt eget diam eget facilisis.
+                        Etiam in maximus felis. Donec elementum, diam ut elementum maximus, eros purus mattis erat,
+                        eget hendrerit risus felis a lacus. Maecenas interdum nec mauris eget tristique. In eget quam eu
+                        nibh rutrum tempor. Mauris porta arcu quam, quis tempor nisl pretium et. Nullam dolor leo, volutpat
+                        in diam et, pharetra pellentesque justo. Nunc suscipit sagittis tortor, ut luctus magna accumsan
+                        in. Duis nec purus eros. Donec auctor euismod nisi, vel faucibus velit iaculis vitae. Nulla metus
+                        enim, venenatis sit amet odio ac, scelerisque porta dui. Donec facilisis quis nulla nec sodales.
+                        Ut posuere volutpat gravida. In in arcu quis magna rhoncus malesuada. Suspendisse ut turpis quam.
+                        Donec placerat vulputate turpis, sit amet blandit tellus venenatis et.
+                    </p>
+                </article>
+
+                <article class="blog-post bg-light">
+                    <hr>
+                        <h2 class="blog-post-title">Products on Sale</h2>
+                        <p class="blog-post-meta">April 9, 2022 by <a href="#">Vince</a></p>
+
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consequat luctus lacus. Suspendisse
+                            ornare, nunc id facilisis consectetur, augue neque iaculis tellus, nec semper elit nulla non
+                            nisi. Praesent vel tincidunt felis, quis congue urna. Nulla mattis velit elit, non fringilla
+                            lorem tristique in. Fusce congue luctus velit et viverra. Sed lectus odio, euismod eget turpis
+                            sed, lobortis accumsan libero. Duis molestie pretium massa, a accumsan velit commodo vitae.
+                            Suspendisse finibus lorem est, sed interdum ipsum tincidunt at. Suspendisse vitae sapien ac
+                            purus blandit aliquam nec id mi. Nam tempus finibus augue non ornare. Etiam lobortis orci
+                            vel metus consectetur convallis.
+                        </p>
+                        <h3>On Sale</h3>
+                        <p>While supplies last</p>
+                        <table class="table">
+                            <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Quantity Left</th>
+                                <th>Sale Price</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td>Dark Organic Fair Trade Guatemala (1 lb)</td>
+                                <td>4</td>
+                                <td>$15.39</td>
+                            </tr>
+                            <tr>
+                                <td>Dark Indian Malabar (1 lb)</td>
+                                <td>2</td>
+                                <td>$13.89</td>
+                            </tr>
+                            <tr>
+                                <td>Medium Costa Rica (1 lb)</td>
+                                <td>3</td>
+                                <td>$14.29</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    <hr>
+                </article>
+
+                <article class="blog-post">
+                    <h2 class="blog-post-title">Just Checking In</h2>
+                    <p class="blog-post-meta">March 19, 2022 by <a href="#">Vince</a></p>
+
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec enim augue. Proin ornare at
+                        eros eget malesuada. Donec auctor ex quis ipsum placerat, vel tristique lectus congue. Mauris
+                        non luctus enim. Maecenas ac tellus neque. Praesent elementum urna dolor, non feugiat urna
+                        hendrerit vel. Sed sit amet lobortis metus. Duis nulla turpis, scelerisque et libero et, porttitor
+                        suscipit nisl. Donec nibh diam, ultricies at pellentesque ac, accumsan aliquam sem. Etiam
+                        pellentesque mattis turpis. Phasellus viverra sollicitudin pretium.
+                        In eget erat nec massa aliquam dapibus. Phasellus et sapien nisl. Morbi ac risus eu nisi
+                        porttitor dapibus id id risus. Phasellus convallis tincidunt dolor, in molestie enim placerat
+                        non. Donec odio ante, dapibus vel nisl vulputate, finibus vestibulum nibh. In in pulvinar risus,
+                        eu congue nisi. Vivamus ac leo ac turpis suscipit ultricies.
+                    </p>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                        <li>Donec id tortor sodales ipsum malesuada euismod.</li>
+                        <li>Suspendisse ultrices libero in lacus vulputate iaculis.</li>
+                    </ul>
+                    <p>
+                        Cras condimentum nisi tortor, nec tempor felis dignissim sed. Nullam eu sapien nec dolor faucibus
+                        porttitor ultrices ut tellus. Phasellus vulputate diam ac eros dictum sagittis. Aliquam mollis
+                        cursus dictum. Duis bibendum sapien ligula, non laoreet nulla tempor in. Praesent congue, ligula
+                        eget lacinia elementum, arcu nisi aliquet urna, id ultricies diam purus ut justo. Cras cursus
+                        euismod tortor, vitae consectetur nunc gravida quis. Praesent sollicitudin nisl eget gravida
+                        venenatis. Aliquam non tortor purus. Nulla scelerisque neque sit amet ex mollis, at convallis
+                        lorem accumsan. Nam dignissim, velit sit amet feugiat accumsan, metus libero dictum diam, et
+                        mollis dolor urna id est. Aliquam erat volutpat. Etiam dolor nisl, vestibulum id aliquam et,
+                        suscipit nec ligula. Nunc sed tortor molestie, ultricies lectus at, fringilla quam. Quisque in
+                        maximus sapien, euismod mollis nulla.
+                    </p>
+                </article>
+                <div class="text-end">
+                    <nav class="blog-pagination" aria-label="Pagination">
+                        <a class="btn btn-outline-primary" href="#">Older</a>
+                        <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Footer section of each page-->
+    <footer class="text-center bg-dark text-white">
+        <div class="container text-center text-md-start mt-5">
+            <div class="row mt-auto">
+                <div class="col-sm">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-pin-map-fill" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M3.1 11.2a.5.5 0 0 1 .4-.2H6a.5.5 0 0 1 0 1H3.75L1.5 15h13l-2.25-3H10a.5.5 0 0 1 0-1h2.5a.5.5 0 0 1 .4.2l3 4a.5.5 0 0 1-.4.8H.5a.5.5 0 0 1-.4-.8l3-4z"/>
+                        <path fill-rule="evenodd" d="M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z"/>
+                    </svg>
+                    <h3 class="icon_inline"> LOCATION AND HOURS</h3>
+                    <h5>614 Broadway Ave, Saskatoon, SK S7N 1A8</h5>
+                    <p>10:00AM - 4:00PM</p>
+
+                    <br>
+                    <h5>2318 8 St E, Saskatoon, SK S7H 0V5</h5>
+                    <p>MON-FRI 9:00AM - 6:00PM</p>
+                    <p>WEEKENDS 10:00AM - 5:00PM</p>
+                    <br>
+                    <br>
+                </div>
+                <div class="col-sm text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-search-heart-fill" viewBox="0 0 16 16">
+                        <path d="M6.5 13a6.474 6.474 0 0 0 3.845-1.258h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.008 1.008 0 0 0-.115-.1A6.471 6.471 0 0 0 13 6.5 6.502 6.502 0 0 0 6.5 0a6.5 6.5 0 1 0 0 13Zm0-8.518c1.664-1.673 5.825 1.254 0 5.018-5.825-3.764-1.664-6.69 0-5.018Z"/>
+                    </svg>
+                    <h3 class="icon_inline"> IMPORTANT LINKS</h3>
+                    <ul class="navbar-nav mx-auto" id="footerlinks">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home_page.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="menu_page.html">MENU</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link"href="review_page.html">REVIEW</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">BLOG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="gallery_page.html">GALLERY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ourcoffee_page.html">OUR COFFEE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="aboutus_page.html">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactus_page.html">CONTACT US</a>
+                        </li>
+                    </ul>
+                    <br>
+                </div>
+
+                <div class="col-sm text-end">
+                    <h3>GO SOCIAL!</h3>
+                    <a href="https://www.facebook.com/profile.php?id=112749032124440"><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                    </svg></a>
+                    <a href="https://www.instagram.com/broadwayroastery/?hl=en">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                        </svg>
+                        <br>
+                        <br>
+                    </a>
+                </div>
+                <hr>
+
+                <div class="row text-center mx-auto">
+                    <div class="col-sm">
+                        <img src="../resources/img/BROADWAY LOGO.png" height="105" width="183" alt="Broadway Roastery Logo"/>
+                        <br>
+                        <p>© The Broadway Roastery</p>
+                        <a href="team_page.html"><img src="../resources/img/team_cuddles.png" height="50" width="50" id="team_cuddles" alt="Team Cuddles Logo"/><br></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
